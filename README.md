@@ -1,7 +1,7 @@
 # Design Patterns
 
 ### Design patterns are design level solutions for recurring problems that frequently occur in software engineering.
-###It is like a description on how to tackle these problems and design a solution.
+### It is like a description on how to tackle these problems and design a solution.
 
 #### The repo contains implementation, use cases and best practices associated with various design patterns. The theory and code associated with each design pattern can be found in their individual module.
 
