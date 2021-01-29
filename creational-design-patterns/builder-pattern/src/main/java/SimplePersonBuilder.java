@@ -1,29 +1,36 @@
-public class SimplePersonBuilder {
-    private Person person = new Person();
+public class SimplePersonBuilder<T extends SimplePersonBuilder<T>> {
+    protected Person person;
 
-    public SimplePersonBuilder setFirstName(String firstName){
+    public SimplePersonBuilder(Person person){
+        this.person = person;
+    }
+    public SimplePersonBuilder(){
+
+    }
+
+    public T setFirstName(String firstName){
         person.setFirstName(firstName);
-        return this;
+        return (T)this;
     }
-    public SimplePersonBuilder setMiddletName(String middletName){
+    public T setMiddletName(String middletName){
         person.setMiddleName(middletName);
-        return this;
+        return (T)this;
     }
-    public SimplePersonBuilder setLastName(String lastName){
+    public T setLastName(String lastName){
         person.setLastName(lastName);
-        return this;
+        return (T)this;
     }
-    public SimplePersonBuilder setPlaceOfBirth(String placeOfBirth){
+    public T setPlaceOfBirth(String placeOfBirth){
         person.setPlaceOfBirth(placeOfBirth);
-        return this;
+        return (T)this;
     }
-    public SimplePersonBuilder setCurrentAddress(String currentAddress){
+    public T setCurrentAddress(String currentAddress){
         person.setCurrenntAddress(currentAddress);
-        return this;
+        return (T) this;
     }
 
     public Person build(){
-        return this.person;
+        return  this.person;
     }
 
 

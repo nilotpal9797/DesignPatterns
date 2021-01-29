@@ -25,6 +25,26 @@ public class Person {
         this.currenntAddress = currenntAddress;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getPlaceOfBirth() {
+        return placeOfBirth;
+    }
+
+    public String getCurrenntAddress() {
+        return currenntAddress;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
