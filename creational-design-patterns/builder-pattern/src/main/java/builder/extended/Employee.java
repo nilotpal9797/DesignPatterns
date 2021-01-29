@@ -1,3 +1,6 @@
+package builder.extended;
+
+
 public class Employee extends Person {
      private String companyName;
      private int salary;

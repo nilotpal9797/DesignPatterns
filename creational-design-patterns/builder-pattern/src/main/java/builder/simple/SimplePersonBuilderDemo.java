@@ -1,3 +1,5 @@
+package builder.simple;
+
 public class SimplePersonBuilderDemo {
 
     public static void main(String[] args) {

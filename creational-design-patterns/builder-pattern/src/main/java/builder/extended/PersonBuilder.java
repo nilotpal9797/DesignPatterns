@@ -1,10 +1,13 @@
-public class SimplePersonBuilder<T extends SimplePersonBuilder<T>> {
+package builder.extended;
+
+
+public class PersonBuilder<T extends PersonBuilder<T>> {
     protected Person person;
 
-    public SimplePersonBuilder(Person person){
+    public PersonBuilder(Person person){
         this.person = person;
     }
-    public SimplePersonBuilder(){
+    public PersonBuilder(){
 
     }
 

@@ -1,6 +1,8 @@
-public class EmployeeBuilder extends SimplePersonBuilder<EmployeeBuilder> {
+package builder.extended;
 
-    protected  Employee employee;
+public class EmployeeBuilder extends PersonBuilder<EmployeeBuilder> {
+
+    protected Employee employee;
 
     public EmployeeBuilder(Employee emp){
         super(emp);

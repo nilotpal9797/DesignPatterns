@@ -1,3 +1,5 @@
+package builder.simple;
+
 public class Person {
     private String firstName;
     private String middleName;

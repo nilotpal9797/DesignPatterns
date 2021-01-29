@@ -1,3 +1,8 @@
+package builder.extended;
+
+import builder.extended.Employee;
+import builder.extended.EmployeeBuilder;
+
 public class EmployeeBuilderDemo {
 
     public static void main(String[] args) {
